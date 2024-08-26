@@ -1,0 +1,145 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #011933;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #011933;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-left: 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+h1 {
+    text-align: left;
+    border-bottom: 1px solid white;
+    padding-bottom: 1rem;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.categoria, .stock {
+    width: 45%;
+    background-color: #787c81;
+    
+    border-radius: 15px;
+    padding: 1rem;
+}
+
+.categoria h2, .stock h2 {
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.categoria ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.categoria ul li {
+    border-bottom: 1px solid #b8b8cc;
+    padding: 0.5rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.categoria ul li:last-child {
+    border-bottom: none;
+}
+
+.categoria ul li img {
+    width: 20px;
+    height: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+}
+
+th, td {
+    border: 1px solid #a3a3bb;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+th {
+    background-color:#5b5e61;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    background-color: #555657;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    background-color: #011933;
+}
+
+footer h3 {
+    color: #ffffff;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer a {
+    color: #cccccc;
+    text-decoration: none;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}

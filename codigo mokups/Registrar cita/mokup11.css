@@ -1,0 +1,122 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #011933;
+    color: #eee8e8;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #011933;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+    
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.logo img {
+    height: 80px;  
+}
+
+.logo-img {
+    width: 100px; 
+    object-fit: cover; 
+    margin: 5px; 
+}
+
+.agendamiento {
+    text-align: center;
+    padding: 20px;
+}
+
+.form-container {
+    display: inline-block;
+    
+    text-align: left;
+    background-color: #787c81;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="date"],
+input[type="time"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e8e8eb;
+    border-radius: 5px;
+    background-color: #f9fafc;
+    color: #02020271;
+}
+
+.resumen {
+    background-color: #6a6b6b;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+button {
+    background-color: #ebecee;
+    border: none;
+    padding: 10px 20px;
+    color: #0f0f0f;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d5dfee;
+}
+
+
+
+footer {
+  background-color: #011933;
+  color: #fdefef;
+  padding: 30px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  flex: 1;
+}
+
+ 
+ .social-icons img {
+    width: 30px;
+    height: 30px;
+ }
+
